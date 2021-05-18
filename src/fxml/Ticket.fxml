@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXMLDocumentController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: black;">
+         <children>
+            <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eebf47" height="59.0" layoutY="81.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1300.0" />
+            <Text fill="WHITE" layoutX="22.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SelfPrint Ticket " wrappingWidth="279.24951171875">
+               <font>
+                  <Font name="Georgia" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="29.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie Title                   : " wrappingWidth="232.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="28.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cinema                          : " wrappingWidth="279.24951171875">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="29.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hall                                : " wrappingWidth="242.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="28.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie Date                   :  " wrappingWidth="242.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="553.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie Time          : " wrappingWidth="232.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="553.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No of Tickets        : " wrappingWidth="316.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="29.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seat No                          : " wrappingWidth="253.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="28.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tickets                            :" wrappingWidth="242.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="253.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adult  : " wrappingWidth="133.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="405.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Child  : " wrappingWidth="133.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="29.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie Classification   :" wrappingWidth="242.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="28.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Type               : " wrappingWidth="260.033203125">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="624.0" layoutY="590.0" mnemonicParsing="false" onAction="#sc9Load" prefHeight="59.0" prefWidth="147.0" text="Print">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="-8.0" layoutY="-13.0" minHeight="-Infinity" prefHeight="114.0" prefWidth="1308.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="149.0" layoutX="58.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/gsc%20logo%20edited%20(small).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Text fill="#eb1c1c" layoutX="992.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show this QR code at the maingate or at the ticket counter" wrappingWidth="207.0">
+               <font>
+                  <Font name="Bell MT Bold" size="19.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="553.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OKU  : " wrappingWidth="69.0">
+               <font>
+                  <Font name="Georgia" size="19.0" />
+               </font>
+            </Text>
+            <Label fx:id="sc9Movie" layoutX="250.0" layoutY="199.0" prefHeight="39.0" prefWidth="405.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Hall" layoutX="250.0" layoutY="274.0" prefHeight="39.0" prefWidth="405.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Cinema" layoutX="250.0" layoutY="235.0" prefHeight="39.0" prefWidth="405.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Date" layoutX="250.0" layoutY="317.0" prefHeight="39.0" prefWidth="185.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Time" layoutX="717.0" layoutY="317.0" prefHeight="29.0" prefWidth="114.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Info" layoutX="250.0" layoutY="355.0" prefHeight="39.0" prefWidth="159.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9noOfTicket" layoutX="717.0" layoutY="355.0" prefHeight="29.0" prefWidth="114.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Seat" layoutX="250.0" layoutY="400.0" prefHeight="39.0" prefWidth="405.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Adult" layoutX="311.0" layoutY="441.0" prefHeight="39.0" prefWidth="69.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9OKU" layoutX="614.0" layoutY="439.0" prefHeight="39.0" prefWidth="76.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Children" layoutX="474.0" layoutY="441.0" prefHeight="39.0" prefWidth="62.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc9Payment" layoutX="250.0" layoutY="476.0" prefHeight="39.0" prefWidth="405.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="QRcode" fitHeight="327.0" fitWidth="327.0" layoutX="930.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../Image/QR%20code.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

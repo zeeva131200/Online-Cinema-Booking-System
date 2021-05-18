@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXMLDocumentController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="mainSc8" layoutX="-7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1315.0" style="-fx-background-color: black;" visible="true">
+         <children>
+            <AnchorPane fx:id="popup" layoutX="-8.0" layoutY="101.0" prefHeight="112.0" prefWidth="1300.0">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" layoutX="447.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" layoutX="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" layoutX="298.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" layoutX="1151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" layoutX="1009.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" layoutX="866.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" layoutX="596.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="112.0" fitWidth="162.0" layoutX="733.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/scene8.png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane fx:id="popup" layoutX="661.0" layoutY="-90.0" prefHeight="200.0" prefWidth="330.0" style="-fx-background-color: white;">
+                     <children>
+                        <AnchorPane prefHeight="62.0" prefWidth="330.0" style="-fx-background-color: FBBB06;">
+                           <children>
+                              <Text layoutX="22.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Approved">
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                        <Text layoutX="28.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Approved">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="sc8Close" layoutX="230.0" layoutY="141.0" mnemonicParsing="false" onAction="#loadSc8" text="Close" />
+                     </children>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </AnchorPane>
+               </children>
+               <effect>
+                  <Reflection />
+               </effect>
+            </AnchorPane>
+            <Button fx:id="printTickets" layoutX="618.0" layoutY="642.0" mnemonicParsing="false" onAction="#changeScenes" style="-fx-background-color: #FBBB06;" text="Print Tickets" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="postersc8" fitHeight="423.0" fitWidth="381.0" layoutX="80.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="sc8MovieLabel" layoutX="778.0" layoutY="271.0" prefHeight="27.0" prefWidth="372.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font></Label>
+            <Label fx:id="sc8CinemaLabel" layoutX="778.0" layoutY="326.0" prefHeight="27.0" prefWidth="372.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font></Label>
+            <Label fx:id="sc8DateLabel" layoutX="778.0" layoutY="379.0" prefHeight="27.0" prefWidth="372.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font></Label>
+            <Label fx:id="sc8SeatLabel" layoutX="778.0" layoutY="435.0" prefHeight="27.0" prefWidth="372.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font></Label>
+            <Label fx:id="sc8TicketLabel" layoutX="778.0" layoutY="498.0" prefHeight="27.0" prefWidth="372.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font></Label>
+            <ImageView fitHeight="80.0" fitWidth="149.0" layoutX="70.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/gsc%20logo%20edited%20(small).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="577.0" layoutY="269.0" prefHeight="30.0" prefWidth="192.0" text="Movie                      :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="577.0" layoutY="324.0" prefHeight="30.0" prefWidth="192.0" text="Cinema                   :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="577.0" layoutY="379.0" prefHeight="30.0" prefWidth="192.0" text="Show Date/Time :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="580.0" layoutY="433.0" prefHeight="30.0" prefWidth="192.0" text="Seat(s)                    :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="579.0" layoutY="496.0" prefHeight="30.0" prefWidth="192.0" text="Tickets                    :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="summaryLabel2" layoutX="579.0" layoutY="547.0" prefHeight="25.0" prefWidth="739.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="summaryLabel3" layoutX="579.0" layoutY="572.0" prefHeight="25.0" prefWidth="672.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="74.0" fitWidth="156.0" layoutX="54.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/gsc%20logo%20edited%20(small).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="461.0" fitWidth="969.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/movie%20poster.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="461.0" fitWidth="356.0" layoutX="959.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Project%20Power%20Movie%20Poster.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="626.0" prefHeight="74.0" prefWidth="1300.0" style="-fx-background-color: FFA60D;">
+         <children>
+            <Button fx:id="checkbtn" layoutX="1178.0" layoutY="14.0" mnemonicParsing="false" onAction="#changeScenes" style="-fx-background-color: red;" text="Check" textFill="#f2e9e9" visible="false">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <ChoiceBox fx:id="cinemaBox" layoutX="64.0" layoutY="18.0" prefHeight="39.0" prefWidth="213.0" visible="false" />
+            <ChoiceBox fx:id="dateBox" layoutX="333.0" layoutY="18.0" prefHeight="39.0" prefWidth="213.0" visible="false" />
+            <ChoiceBox fx:id="moviesBox" layoutX="906.0" layoutY="18.0" prefHeight="39.0" prefWidth="213.0" visible="false" />
+            <Button fx:id="filterbtn" layoutX="586.0" layoutY="28.0" mnemonicParsing="false" onAction="#filter" text="Filter" visible="false" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="startBooking" layoutX="593.0" layoutY="552.0" mnemonicParsing="false" onAction="#showAction" text="Start Booking">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

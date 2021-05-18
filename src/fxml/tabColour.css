@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 8:42:47 PM
+    Author     : Sangeetha
+*/
+
+.tab-header-background{
+    -fx-background-color: transparent;
+}
+.tab{
+    -fx-background-color: transparent;
+}
+.tab-label{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+.tab:selected{
+    -fx-border-color: white;
+}
+.username{
+    -fx-text-fill: white;
+}
+.text-input {
+    -fx-text-fill: grey;
+}
+.button:active{
+    background:greenyellow;
+}
+
+button:focus{
+    background:greenyellow;
+}
+#style  {
+    background-color: greenyellow;
+}
+
+#style:focus {     
+    background-color:yellow;    
+}

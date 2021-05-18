@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXMLDocumentController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: black;">
+         <children>
+            <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+            <AnchorPane layoutY="109.0" prefHeight="109.0" prefWidth="1300.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="105.0" fitWidth="206.0" layoutX="553.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                     <image>
+                        <Image url="@../Image/pay.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="177.0" layoutX="49.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                     <image>
+                        <Image url="@../Image/pay2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="177.0" layoutX="217.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                     <image>
+                        <Image url="@../Image/pay2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="177.0" layoutX="385.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                     <image>
+                        <Image url="@../Image/pay2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="177.0" layoutX="753.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                     <image>
+                        <Image url="@../Image/pay2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="177.0" layoutX="921.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                     <image>
+                        <Image url="@../Image/pay2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="200.0" layoutX="1089.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                     <image>
+                        <Image url="@../Image/pay2.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="74.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment information" wrappingWidth="405.205078125">
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Text fill="WHITE" layoutX="679.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Option">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Text>
+            <Label layoutX="59.0" layoutY="283.0" prefHeight="30.0" prefWidth="120.0" text="Title of Film :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="677.0" layoutY="250.0" prefHeight="27.0" prefWidth="551.0" style="-fx-background-color: #FBBB06;" text="  Total Payment :">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="bankListBox" layoutX="679.0" layoutY="350.0" prefWidth="150.0" />
+            <Label layoutX="59.0" layoutY="324.0" prefHeight="30.0" prefWidth="86.0" text="Cinema :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="362.0" prefHeight="30.0" prefWidth="158.0" text="Show Date/Time :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="397.0" prefHeight="30.0" prefWidth="58.0" text="Hall :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="434.0" prefHeight="30.0" prefWidth="78.0" text="Seat(s) :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="470.0" prefHeight="30.0" prefWidth="136.0" text="No. of Tickets :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="506.0" prefHeight="30.0" prefWidth="113.0" text="Trans Date :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="543.0" prefHeight="30.0" prefWidth="97.0" text="Trans ID :" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="578.0" prefHeight="30.0" prefWidth="150.0" text="Total Amount :" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="250.0" prefHeight="27.0" prefWidth="529.0" style="-fx-background-color: #FBBB06;" text="  Transaction Details :">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="sc6BackBtn" layoutX="70.0" layoutY="630.0" mnemonicParsing="false" onAction="#changeScenes" text="Back">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="sc6ProceedBtn" layoutX="1150.0" layoutY="630.0" mnemonicParsing="false" onAction="#changeScenes" style="-fx-background-color: red;" text="Proceed" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="679.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane layoutX="-8.0" minHeight="-Infinity" prefHeight="114.0" prefWidth="1308.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="80.0" fitWidth="149.0" layoutX="58.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/gsc%20logo%20edited%20(small).png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="94.0" layoutY="33.0" mnemonicParsing="false" onAction="#setLabel" prefHeight="39.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+               </children>
+            </AnchorPane>
+            <Label fx:id="sc6Movie" layoutX="231.0" layoutY="283.0" prefHeight="30.0" prefWidth="352.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc6Cinema" layoutX="231.0" layoutY="324.0" prefHeight="30.0" prefWidth="373.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc6Date" layoutX="231.0" layoutY="362.0" prefHeight="30.0" prefWidth="309.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc6Hall" layoutX="231.0" layoutY="397.0" prefHeight="30.0" prefWidth="359.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc6Seats" layoutX="231.0" layoutY="434.0" prefHeight="30.0" prefWidth="529.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="noOfTickets" layoutX="231.0" layoutY="470.0" prefHeight="30.0" prefWidth="405.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="TransDate" layoutX="231.0" layoutY="506.0" prefHeight="30.0" prefWidth="452.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="TransID" layoutX="229.0" layoutY="544.0" prefHeight="30.0" prefWidth="258.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="sc6Total" layoutX="229.0" layoutY="578.0" prefHeight="30.0" prefWidth="230.0" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

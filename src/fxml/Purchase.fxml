@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXMLDocumentController">
+   <children>
+      <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="121.0" fitWidth="122.0" layoutX="23.0" layoutY="498.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/ecombo2.png" />
+               </image>
+            </ImageView>
+            <VBox layoutX="431.0" layoutY="94.0" prefHeight="40.0" prefWidth="290.0">
+               <children>
+                  <MenuBar style="-fx-background-color: grey;" />
+                  <MenuBar />
+                  <MenuBar style="-fx-background-color: grey;" />
+                  <VBox prefHeight="166.0" prefWidth="290.0">
+                     <children>
+                        <AnchorPane prefHeight="40.0" prefWidth="290.0" style="-fx-background-color: #FBBB06;">
+                           <children>
+                              <Text fill="#eeebeb" layoutX="96.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ticket Price (RM)">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <Label layoutX="26.0" layoutY="38.0" text="Time              :" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="26.0" layoutY="64.0" text="Seat No.        :" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="555.0" layoutY="156.0" text="10.00" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="559.0" layoutY="199.0" text="7.00" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="559.0" layoutY="245.0" text="5.00" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="555.0" layoutY="434.0" text="10.00" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="562.0" layoutY="554.0" text="8.00" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <AnchorPane layoutX="431.0" layoutY="353.0" prefHeight="40.0" prefWidth="290.0" style="-fx-background-color: #FBBB06;">
+               <children>
+                  <Text fill="#eeebeb" layoutX="93.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item Price (RM)">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="-4.0" layoutY="655.0" prefHeight="46.0" prefWidth="1306.0" style="-fx-background-color: #FBBB06;">
+               <children>
+                  <Button fx:id="sc5NextBtn" layoutX="1170.0" layoutY="4.0" mnemonicParsing="false" onAction="#changeScenes" prefHeight="39.0" prefWidth="74.0" style="-fx-background-color: red;" text="Next" textFill="#eee8e8" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="26.0" layoutY="156.0" prefHeight="30.0" prefWidth="86.0" text="Adult" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="25.0" layoutY="200.0" text="Children" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label layoutX="23.0" layoutY="239.0" text="OKU" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font></Label>
+            <AnchorPane layoutX="431.0" layoutY="296.0" prefHeight="57.0" prefWidth="290.0" style="-fx-background-color: grey;" />
+            <Label layoutX="164.0" layoutY="462.0" text="2 x Soft Drink Regular (ice)" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font></Label>
+            <Label layoutX="164.0" layoutY="437.0" text="1 x Caramel Popcorn REGULAR" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font></Label>
+            <Label layoutX="164.0" layoutY="403.0" text="e-Combo 1" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="97.0" fitWidth="74.0" layoutX="21.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/ecombo1.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="164.0" layoutY="511.0" text="e-Combo 2" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="164.0" layoutY="548.0" text="1 x Caramel Popcorn REGULAR" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font></Label>
+            <Label layoutX="166.0" layoutY="573.0" text="2 x Mineral Water Spritzer" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font></Label>
+            <AnchorPane layoutX="-7.0" layoutY="94.0" prefHeight="40.0" prefWidth="438.0" style="-fx-background-color: #FBBB06;">
+               <children>
+                  <Text fill="#eeebeb" layoutX="120.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ticket Type">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="-1.0" layoutY="296.0" prefHeight="57.0" prefWidth="432.0" style="-fx-background-color: grey;" />
+            <AnchorPane layoutY="353.0" prefHeight="40.0" prefWidth="432.0" style="-fx-background-color: #FBBB06;">
+               <children>
+                  <Text fill="#eeebeb" layoutX="100.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="e-Combo Type(s)">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Button fx:id="sc5Plus1" blendMode="DIFFERENCE" layoutX="768.0" layoutY="148.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="+" />
+            <Label fx:id="sc5Count2" alignment="CENTER" blendMode="HARD_LIGHT" layoutX="818.0" layoutY="197.0" prefHeight="21.0" prefWidth="38.0" text="0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Button fx:id="sc5Plus2" blendMode="DIFFERENCE" layoutX="768.0" layoutY="193.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="+" />
+            <Button fx:id="sc5Plus3" blendMode="DIFFERENCE" layoutX="768.0" layoutY="239.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="+" />
+            <Label fx:id="sc5Count3" alignment="CENTER" blendMode="HARD_LIGHT" layoutX="818.0" layoutY="243.0" prefHeight="21.0" prefWidth="38.0" text="0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="sc5Count1" alignment="CENTER" blendMode="HARD_LIGHT" layoutX="817.0" layoutY="151.0" prefHeight="21.0" prefWidth="38.0" text="0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <AnchorPane layoutX="714.0" layoutY="94.0" prefHeight="40.0" prefWidth="297.0" style="-fx-background-color: #FBBB06;">
+               <children>
+                  <Text fill="#eeebeb" layoutX="88.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="720.0" layoutY="297.0" prefHeight="57.0" prefWidth="290.0" style="-fx-background-color: grey;" />
+            <AnchorPane layoutX="720.0" layoutY="353.0" prefHeight="40.0" prefWidth="290.0" style="-fx-background-color: #FBBB06;">
+               <children>
+                  <Text fill="#eeebeb" layoutX="91.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Button fx:id="sc5Plus4" blendMode="DIFFERENCE" layoutX="771.0" layoutY="432.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="+" />
+            <Label fx:id="sc5Count4" alignment="CENTER" blendMode="HARD_LIGHT" layoutX="822.0" layoutY="436.0" prefHeight="21.0" prefWidth="38.0" text="0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Button fx:id="sc5Plus5" blendMode="DIFFERENCE" layoutX="774.0" layoutY="549.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="+" />
+            <Label fx:id="sc5Count5" alignment="CENTER" blendMode="HARD_LIGHT" layoutX="823.0" layoutY="553.0" prefHeight="21.0" prefWidth="38.0" text="0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <AnchorPane layoutX="1004.0" layoutY="297.0" prefHeight="57.0" prefWidth="297.0" style="-fx-background-color: grey;">
+               <children>
+                  <Text layoutX="19.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total :" />
+                  <Label layoutX="79.0" layoutY="15.0" prefHeight="27.0" prefWidth="133.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1010.0" layoutY="353.0" prefHeight="40.0" prefWidth="290.0" style="-fx-background-color: #FBBB06;">
+               <children>
+                  <Text fill="#eeebeb" layoutX="76.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal (RM)">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1010.0" layoutY="94.0" prefHeight="40.0" prefWidth="290.0" style="-fx-background-color: #FBBB06;">
+               <children>
+                  <Text fill="#eeebeb" layoutX="70.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal (RM)">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="-2.0" layoutY="610.0" prefHeight="40.0" prefWidth="1306.0" style="-fx-background-color: grey;">
+               <children>
+                  <Text layoutX="973.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grand Total :" wrappingWidth="109.318359375" />
+                  <Label layoutX="1083.0" layoutY="20.0" prefHeight="27.0" prefWidth="133.0" />
+                  <Label fx:id="sc5SubTotal" alignment="CENTER" contentDisplay="CENTER" layoutX="1108.0" layoutY="11.0" prefHeight="27.0" prefWidth="158.0" style="-fx-background-color: white;" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label fx:id="sc5MovieLabel" layoutX="169.0" layoutY="12.0" prefHeight="27.0" prefWidth="256.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="sc5TimeLabel" layoutX="166.0" layoutY="38.0" prefHeight="27.0" prefWidth="256.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="sc5SeatLabel" layoutX="164.0" layoutY="64.0" prefHeight="27.0" prefWidth="256.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="sc5Total4" alignment="CENTER" contentDisplay="CENTER" layoutX="1045.0" layoutY="434.0" prefHeight="27.0" prefWidth="188.0" text="0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="sc5Total5" alignment="CENTER" contentDisplay="CENTER" layoutX="1045.0" layoutY="545.0" prefHeight="27.0" prefWidth="188.0" text="0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="sc5Total3" alignment="CENTER" contentDisplay="CENTER" layoutX="1045.0" layoutY="239.0" prefHeight="27.0" prefWidth="188.0" text="0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="sc5Total1" alignment="CENTER" contentDisplay="CENTER" layoutX="1045.0" layoutY="152.0" prefHeight="27.0" prefWidth="188.0" text="0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="sc5Total2" alignment="CENTER" contentDisplay="CENTER" layoutX="1045.0" layoutY="196.0" prefHeight="27.0" prefWidth="188.0" text="0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Button fx:id="sc5Minus1" blendMode="DIFFERENCE" layoutX="874.0" layoutY="148.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="-" />
+            <Button fx:id="sc5Minus2" blendMode="DIFFERENCE" layoutX="874.0" layoutY="192.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="-" />
+            <Button fx:id="sc5Minus3" blendMode="DIFFERENCE" layoutX="874.0" layoutY="239.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="-" />
+            <Button fx:id="sc5Minus5" blendMode="DIFFERENCE" layoutX="874.0" layoutY="548.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="-" />
+            <Button fx:id="sc5Minus4" blendMode="DIFFERENCE" layoutX="874.0" layoutY="432.0" mnemonicParsing="false" onAction="#setCount" prefHeight="39.0" prefWidth="43.0" text="-" />
+            <Button layoutX="-3.0" layoutY="5.0" mnemonicParsing="false" onAction="#load" prefHeight="39.0" prefWidth="175.0" style="-fx-background-color: transparent;" text="Movie Title     :" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

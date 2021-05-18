@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="700.0" fitWidth="769.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/GSC%20logo.png" />
+         </image>
+      </ImageView>
+      <TabPane layoutX="790.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="450.0" style="-fx-background-color: transparent;" stylesheets="@tabColour.css">
+        <tabs>
+            <Tab closable="false">
+              <content>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="453.0" style="-fx-background-color: transparent;">
+                     <padding>
+                        <Insets top="100.0" />
+                     </padding>
+                     <children>
+                        <ImageView fitHeight="140.0" fitWidth="207.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Image/gold%20film%20strip.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="140.0" fitWidth="207.0" layoutX="185.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Image/gold%20film%20strip.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="140.0" fitWidth="207.0" layoutX="252.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Image/gold%20film%20strip.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="221.0" fitWidth="241.0" layoutX="119.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Image/popcorn.png" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+              </content>
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/home%20icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Tab>
+          <Tab closable="false" text="Sign In">
+               <content>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="450.0" style="-fx-background-color: transparent;">
+                     <children>
+                        <TextField id="username" fx:id="input" layoutX="99.0" layoutY="123.0" prefHeight="39.0" prefWidth="253.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" stylesheets="@tabColour.css">
+                           <font>
+                              <Font size="20.0" />
+                           </font></TextField>
+                        <PasswordField fx:id="pswdinput" layoutX="99.0" layoutY="191.0" prefHeight="39.0" prefWidth="253.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+                           <font>
+                              <Font size="20.0" />
+                           </font></PasswordField>
+                        <Button fx:id="login" layoutX="99.0" layoutY="339.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="39.0" prefWidth="253.0" style="-fx-background-color: #E45652;" text="Log In" textFill="#fcf2f2" />
+                        <Label layoutX="162.0" layoutY="39.0" prefHeight="59.0" prefWidth="126.0" text="Sign In" textFill="#fffbfb">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                        </Label>
+                        <Text fill="#f5efef" layoutX="155.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password?" />
+                     </children>
+                     <padding>
+                        <Insets top="100.0" />
+                     </padding>
+                  </AnchorPane>
+               </content>
+          </Tab>
+          <Tab closable="false" text="Register">
+            <content>
+              <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="450.0" style="-fx-background-color: transparent;">
+                     <padding>
+                        <Insets top="100.0" />
+                     </padding>
+                     <children>
+                        <TextField id="username" fx:id="input1" layoutX="99.0" layoutY="125.0" prefHeight="39.0" prefWidth="253.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" stylesheets="@tabColour.css">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                        <PasswordField fx:id="pswdinput1" layoutX="99.0" layoutY="198.0" prefHeight="39.0" prefWidth="253.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </PasswordField>
+                        <Button fx:id="btn1" layoutX="99.0" layoutY="296.0" mnemonicParsing="false" onAction="#filewrite" prefHeight="39.0" prefWidth="253.0" style="-fx-background-color: #E45652;" text="Register" textFill="#fcf2f2" />
+                        <Label layoutX="155.0" layoutY="33.0" prefHeight="59.0" prefWidth="141.0" text="Register" textFill="#fffbfb">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <Label fx:id="XsuccessLabel" layoutX="493.0" layoutY="8.0" prefHeight="107.0" prefWidth="288.0" textFill="#f2eded">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok" layoutX="586.0" layoutY="108.0" mnemonicParsing="false" onAction="#changeScenes" style="-fx-background-color: transparent; -fx-border-color: white;" text="OK" textFill="#fcf2f2" visible="false" />
+      <ImageView fitHeight="140.0" fitWidth="412.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/gold%20film%20strip.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="412.0" layoutX="201.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/gold%20film%20strip.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="412.0" layoutX="402.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/gold%20film%20strip.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="219.0" layoutX="586.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/gold%20film%20strip.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="60.0" layoutX="1233.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/gold%20film%20strip%20-%20end%20part2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="219.0" layoutX="603.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/gold%20film%20strip.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
